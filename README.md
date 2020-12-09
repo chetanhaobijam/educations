@@ -1,2 +1,1 @@
-# educations
-Education S Clone Site
+<h1>Education S Clone Site</h1>
