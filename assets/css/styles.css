@@ -1,13 +1,20 @@
 :root {
   --blue: #219fab;
   --darkgreen: #015754;
-  --lightpink: #f4d9e2;
+  --icongray: #bec2c5;
+  --textgray: #5E656D;
+  --facebook: #4267b2;
+  --twitter: #00acee;
+  --gplus: #db4a39;
+  --instagram: #fb3958;
+  --pinterest: #e60023;
 }
 
 body {
   font-family: 'Lato', sans-serif;
   margin: 0;
   padding: 0;
+  background-color: #e2e2e2;
 }
 
 html {
@@ -88,7 +95,7 @@ main {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: 1fr;
-  grid-column-gap: 100px;
+  grid-column-gap: 200px;
   color: var(--blue);
   margin-bottom: 70px;
 }
@@ -111,3 +118,86 @@ main {
   background-color: var(--blue);
   color: #fff;
 }
+
+/* About Section */
+section {
+  display: grid;
+  grid-template-columns: 500px 1fr 1fr;
+  grid-template-rows: 1fr;
+  grid-column-gap: 20px;
+  margin: 30px 20px 30px 100px;
+  color: var(--textgray);
+}
+
+.about-title, .contact-title, .follow-title {
+  font-size: 1.3rem;
+  margin-bottom: 15px;
+  font-weight: 500;
+}
+
+.small-para {
+  font-size: 0.79rem;
+  margin-bottom: 15px;
+  line-height: 20px;
+}
+
+hr {
+  border: none;
+  background-color: var(--icongray);
+  height: 1px;
+  margin: 0 0 2px 0;
+}
+
+.lightpink {
+  color: orchid;
+}
+
+section i {
+  color: var(--icongray);
+}
+
+.contact i {
+  margin-right: 10px;
+}
+
+.follow i {
+  margin-right: 15px;
+  cursor: pointer;
+  outline: none;
+}
+
+.fa-facebook-f:hover {
+  color: var(--facebook);
+}
+
+.fa-twitter:hover {
+  color: var(--twitter);
+}
+
+.fa-google-plus-g:hover {
+  color: var(--gplus);
+}
+
+.fa-instagram:hover {
+  color: var(--instagram);
+}
+
+.fa-pinterest:hover {
+  color: var(--pinterest);
+}
+
+/* Footer */
+footer {
+  text-align: right;
+  margin: 10px 20px 10px 0;
+}
+
+footer a {
+  color: var(--blue);
+  text-decoration: none;
+}
+
+footer a:hover {
+  color: orchid;
+}
+
