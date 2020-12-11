@@ -50,6 +50,11 @@ nav {
   letter-spacing: 3px;
 }
 
+.nav-brand a {
+  color: #fff;
+  text-decoration: none;
+}
+
 .nav-items {
   display: flex;
   flex-direction: row;
