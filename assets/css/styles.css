@@ -293,11 +293,22 @@ footer a:hover {
 /* Register Page */
 .register {
   background-color: rgb(12, 19, 27);
-  padding: 30px 50px;
-  width: 35%;
+  padding: 20px;
+  width: 100%;
 }
+
 .register-title {
-  font-size: 1.8rem;
+  font-size: 1.5rem;
   font-weight: 700;
+}
+
+@media screen and (min-width: 576px) {
+  .register {
+    padding: 30px 50px;
+    width: 35%;
+  }
+  .register-title {
+    font-size: 1.8rem;
+  }
 }
 
