@@ -302,13 +302,32 @@ footer a:hover {
   font-weight: 700;
 }
 
-@media screen and (min-width: 576px) {
+@media screen and (min-width: 567px) {
   .register {
     padding: 30px 50px;
-    width: 35%;
+    width: 70%;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .register {  
+    width: 60%;
   }
   .register-title {
     font-size: 1.8rem;
   }
 }
+
+@media screen and (min-width: 992px) {
+  .register {
+    width: 50%;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .register {
+    width: 35%;
+  }
+}
+
 
