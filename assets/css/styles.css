@@ -290,3 +290,14 @@ footer a:hover {
   color: orchid;
 }
 
+/* Register Page */
+.register {
+  background-color: rgb(12, 19, 27);
+  padding: 30px 50px;
+  width: 35%;
+}
+.register-title {
+  font-size: 1.8rem;
+  font-weight: 700;
+}
+

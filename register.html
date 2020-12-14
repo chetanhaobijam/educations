@@ -17,7 +17,7 @@
 <body>
   <!-- Navigation -->
   <nav>
-    <div class="nav-brand"><a href="https://chetanhaobijam.github.io/educations/">Education (S)</a></div>
+    <div class="nav-brand"><a href="index.html">Education (S)</a></div>
     <div class="nav-items">
       <div><a href="register.html">Register</a></div>
       <div><a href="login.html">Login</a></div>
@@ -26,9 +26,9 @@
 
   <!-- Main Content -->
   <main class="register-main">
-    <div class="register">
+    <div class="register my-5">
       <form action="#">
-        <div class="form-title">Register here</div>
+        <div class="form-title register-title text-center mb-3">Register here</div>
         <div class="form-group">
           <label for="mgel">MGEL</label>
           <input type="number" id="mgel" name="mgel" required minlength="6" maxlength="6" class="form-control">
@@ -45,11 +45,11 @@
           <label for="repassword">Repeat Password</label>
           <input type="password" id="repassword" name="repassword" class="form-control" required minlength="8">
         </div>
-        <div class="form-group">
-          <input type="submit" value="Register" class="btn btn-success">
-          <input type="reset" value="Cancel" class="btn btn-warning">
+        <div class="form-group text-center">
+          <input type="submit" value="Register" class="btn btn-success mr-2">
+          <input type="reset" value="Cancel" class="btn btn-warning ml-2">
         </div>
-        <div class="already">Already have a account? Login <a href="/login">here</a></div>
+        <div class="already text-center">Already have a account? Login <a href="/login">here</a></div>
       </form>
     </div>
   </main>
