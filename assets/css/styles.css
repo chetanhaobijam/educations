@@ -278,7 +278,8 @@ section i {
 /* Footer */
 footer {
   text-align: right;
-  margin: 10px 20px 10px 0;
+  margin: 10px 0;
+  font-size: 0.88rem;
 }
 
 footer a {
@@ -290,6 +291,11 @@ footer a:hover {
   color: orchid;
 }
 
+@media screen and (min-width: 768px) {
+  footer {
+    font-size: 1rem;
+  }
+}
 /* Register Page */
 .register {
   background-color: rgb(12, 19, 27);
