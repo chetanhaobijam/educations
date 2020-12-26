@@ -330,4 +330,53 @@ footer a:hover {
   }
 }
 
+.registerlink a:hover {
+  color: #007bff;
+}
 
+/* Login Page */
+.login {
+  background-color: rgb(12, 19, 27);
+  padding: 20px;
+  width: 100%;
+}
+
+.login-title {
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+form p {
+  font-size: 0.6rem;
+}
+
+@media screen and (min-width: 567px) {
+  .login {
+    padding: 30px 50px;
+    width: 70%;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .login {  
+    width: 60%;
+  }
+  .login-title {
+    font-size: 1.8rem;
+  }
+  form p {
+    font-size: 0.9rem;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .login {
+    width: 50%;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .login {
+    width: 35%;
+  }
+}
